@@ -5,8 +5,8 @@ from pydub import AudioSegment
 from PIL import Image, ImageEnhance, ImageFilter
 
 # ↓↓↓ Ниже нужно вставить токен, который дал BotFather при регистрации
-# Пример: token = '2007628239:AAEF4ZVqLiRKG7j49EC4vaRwXjJ6DN6xng8'
-token = '6711044042:AAFKqhuw80hFQELRTOdZSJgZoRilBzKJOKg'  # <<< Ваш токен
+# Пример: token = 'Ваш токен'
+token = 'Ваш токен'  # <<< Ваш токен
 
 bot = telebot.TeleBot(token)
 
